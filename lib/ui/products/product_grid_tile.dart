@@ -1,7 +1,7 @@
 // ignore_for_file: unused_import, implementation_imports
 import 'package:flutter/material.dart';
 import 'package:myshop/main.dart';
-import '../../models/products.dart';
+import '../../models/product.dart';
 import 'product_detail_screen.dart';
 
 class ProductGridTile extends StatelessWidget {
