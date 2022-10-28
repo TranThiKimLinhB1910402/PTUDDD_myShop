@@ -32,7 +32,7 @@ class UserProductScreen extends StatelessWidget {
               );
             }
             return RefreshIndicator(
-              onRefresh: () async => debugPrint('refresh products'),
+              onRefresh: () => _refreshProducts(context),
               child: buildUserProductListView(),
             );
           },
